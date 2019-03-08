@@ -21,10 +21,12 @@ function hoatdong(aphone) { return (aphone.onoff === "on" && aphone.battery > 0)
 
 function turnon(aphone) {
     aphone.onoff = "on"
+    alert("The phone is on")
 }
 
 function turnoff(aphone) {
     aphone.onoff = "off"
+    alert("The phone is off")
 }
 
 function Charge(aphone) {
